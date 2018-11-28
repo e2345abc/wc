@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="5.2.0" apprev="15969">
+  <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" levelbias="0.400" width="1000" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0" overlap="1">
+    <level predecode="0" height="1000" preload="0" width="1000"/>
+    <level predecode="1" height="500" preload="1" width="500"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start tilt="0" pan="0" projection="4" fov="70"/>
+    <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+    <min tilt="-90" pan="0" fov="5"/>
+    <max fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90" pan="360" fov="120"/>
+  </view>
+  <userdata author="" comment="" title="" latitude="" source="" longitude="" copyright="" tags="图" description="" customnodeid="" datetime="2018/11/28 19:25" info=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label borderalpha="1" height="20" border="1" background="1" backgroundalpha="1" enabled="1" borderradius="1" wordwrap="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" textalpha="1" textcolor="0x000000"/>
+    <polystyle borderalpha="1" mode="0" backgroundalpha="0.2509803921568627" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+  </hotspots>
+  <media>
+    <sound id="_background" mode="0" tilt="-1.000" pansize="10.000" tiltsize="10.000" field="90.000" loop="0" pan="-1.000" ambientlevel="0.000" level="1.000">
+      <source url="media/阿甘正传完美钢琴曲 - 轻音乐网.mp3"/>
+    </sound>
+  </media>
+  <transition zoomoutpause="1" enabled="0" zoomin="0" blendtime="1" zoomfov="20" zoomspeed="2" zoomout="0" type="crossdissolve" softedge="0" blendcolor="0x000000"/>
+  <control sensitivity="8" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" lockedkeyboard="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" contextfullscreen="0"/>
+</panorama>
